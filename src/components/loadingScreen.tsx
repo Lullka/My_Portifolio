@@ -10,6 +10,7 @@ function LoadingScreen(){
         setTimeout(() => {
             contents.current.style.display = 'none';
             container.current.style.opacity = '0';
+            container.current.style.pointerEvents = 'none';
             setTimeout(() => {
                 container.current.style.display = 'none';
             }, 1000)
@@ -36,7 +37,6 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     user-select: none;
-    pointer-events: none;
 `;
     
 const Contents = styled.div`
@@ -60,6 +60,7 @@ const Contents = styled.div`
         left: 57%;
         top: 50%;
         transform: translate(-50%, -50%);
+        pointer-events: none;
     }
 `;
 

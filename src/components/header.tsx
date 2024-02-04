@@ -5,19 +5,19 @@ function Header(){
     return(
         <HeaderStyle>
             <Nav>
-                <Link to={'/'}>
+                <Link tabIndex={1} to={'/'}>
                     <img src="/primeiralogo.svg" alt="siteLogo" />
                 </Link>
                 <RightCorner>
                     <UlNavItems>
                         <LiNavItems>
-                            <a href="#apresentacao">Apresentação</a>
+                            <a tabIndex={2} href="#apresentacao">Apresentação</a>
                         </LiNavItems>
                         <LiNavItems>
-                            <Link to={'?mdl='}>Sobre mim</Link>
+                            <Link tabIndex={3} to={'?mdl='}>Sobre mim</Link>
                         </LiNavItems>
                         <LiNavItems>
-                            <Link to={'#habilidades'}>Minhas Habilidades</Link>
+                            <Link tabIndex={4} to={'#habilidades'}>Minhas Habilidades</Link>
                         </LiNavItems>
                     </UlNavItems>
                 </RightCorner>
