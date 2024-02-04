@@ -17,7 +17,7 @@ function Header(){
                             <Link to={'?mdl='}>Sobre mim</Link>
                         </LiNavItems>
                         <LiNavItems>
-                            <a href="#habilidades">Minhas Habilidades</a>
+                            <Link to={'#habilidades'}>Minhas Habilidades</Link>
                         </LiNavItems>
                     </UlNavItems>
                 </RightCorner>

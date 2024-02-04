@@ -19,6 +19,7 @@ function Skills(){
                 <H1MySkills>
                     Minhas Habilidades
                     <H1Line/>
+                    <PClickMe>Clique no cards</PClickMe>
                 </H1MySkills>
                 <ContainerSkills>
                     <h2>- Front end -</h2>
@@ -132,6 +133,19 @@ const H1Line = styled.div`
     width: 450px;
     height: 2px;
     background: linear-gradient(to right, rgba(102, 16, 242,1) 50%,rgba(60,0,136,0) 100%);
+`;
+
+const PClickMe = styled.p`
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(rgba(102, 16, 242,1), #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 `;
 
 const ContainerSkills = styled.div`
