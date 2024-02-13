@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Inter', sans-serif;
     }
 
+    
     html{
         scroll-behavior: smooth;
     }
@@ -17,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         width: 100vw;
         height: 100vh;
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
     a{

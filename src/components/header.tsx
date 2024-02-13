@@ -45,7 +45,6 @@ const Nav = styled.nav`
 
     a{
         width: 45px;
-        height: 45px;
     }
 
     a img{
