@@ -45,6 +45,7 @@ export function Video(){
                             ref={VideoPlayer} 
                             poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwLOR_5lLZg_etnIhlq0c8Oh071bXssjxtw&usqp=CAU" 
                             src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">    
+                            Seu browser não é compatível com este formato de vídeo
                         </video>
                         <ContaierContents>
                             <TopContents>
