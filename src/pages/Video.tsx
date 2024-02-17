@@ -36,7 +36,7 @@ export function Video(){
             <Header/>
             <Container>
                 <Helmet>
-                    <title>Assistindo à ${id}</title>
+                    <title>Assistindo à {id}</title>
                 </Helmet>
                 <VideoContainer>
                     <JustForScreeenFunction ref={videoContainerFullScreeenFunction}>
@@ -288,7 +288,7 @@ const CenterControls = styled.div`
     justify-content: center;
     gap: 40px;
     transition: 1s;
-    
+
     button{
         width: 4.5rem;
         height: 4.5rem;
